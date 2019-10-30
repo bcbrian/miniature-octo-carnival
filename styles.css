@@ -1,0 +1,53 @@
+.controller {
+  background-color: rebeccapurple;
+  color: white;
+  margin: 12px;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+input,
+button {
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+button {
+  background-color: rebeccapurple;
+  color: white;
+  border: 2px solid white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.ride-panel {
+  padding: 20px;
+  border: 2px solid rebeccapurple;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 500px;
+  margin: 12px auto;
+}
+
+.ride {
+  margin: 12px auto;
+  padding: 20px;
+  border-radius: 4px;
+  flex: 0 0 calc(125px - 40px - 12px);
+  height: calc(125px - 40px - 12px);
+  background-color: darkred;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ride.active {
+  background-color: springgreen;
+  color: black;
+}
